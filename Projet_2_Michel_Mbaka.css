@@ -45,6 +45,11 @@ nav ul
     list-style-type: none;
     display: flex;
 }
+#Filtre
+{
+    list-style-type: none;
+    display: flex;
+}
 nav li
 {
     margin-right: 5px;
