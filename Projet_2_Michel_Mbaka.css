@@ -27,11 +27,18 @@
 {
     display: flex;
     flex-direction: column; 
+    width: 59px;
+    height: 60px;
 }
 #logo
 {
     display: flex;
     align-items: baseline;
+}
+#logo img
+{
+    width: 59px;
+    height: 60px;
 }
 nav ul
 {
