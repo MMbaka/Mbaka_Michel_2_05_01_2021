@@ -25,7 +25,6 @@
 }
 #titre_principal
 {
-    display: flex;
     flex-direction: column; 
     width: 59px;
     height: 60px;
@@ -45,7 +44,7 @@ nav ul
     list-style-type: none;
     display: flex;
 }
-#Filtre
+#Filtre, #Recherche
 {
     list-style-type: none;
     display: flex;
