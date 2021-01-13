@@ -1,61 +1,144 @@
 /* Définition des polices personnalisées */
 
-@font-face
+body
 {
-    font-family: 'BallparkWeiner';
-    src: url('polices/ballpark.eot');
-    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
-         url('polices/ballpark.woff') format('woff'),
-         url('polices/ballpark.ttf') format('truetype'),
-         url('polices/ballpark.svg#BallparkWeiner') format('svg');
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'Raleway', sans-serif;
 }
-
-@font-face
+header
 {
-    font-family: 'Dayrom';
-    src: url('polices/dayrom.eot');
-    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
-         url('polices/dayrom.woff') format('woff'),
-         url('polices/dayrom.ttf') format('truetype'),
-         url('polices/dayrom.svg#Dayrom') format('svg');
-    font-weight: normal;
-    font-style: normal;
+    flex-direction: column;   
 }
-#titre_principal
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+.titre_principal
 {
     flex-direction: column; 
-    width: 59px;
-    height: 60px;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+    display: inline-block;    
+    vertical-align: top;
 }
-#logo
+.logo
 {
     display: flex;
     align-items: baseline;
 }
-#logo img
+.logo img
 {
-    width: 59px;
-    height: 60px;
+    width: 90px;
+    height: 40px;
 }
-nav ul
+nav 
 {
-    list-style-type: none;
-    display: flex;
+    display: inline-block;    
+    vertical-align: top;
+    position: relative;
+    left: 150px;
+    top: 0px;
 }
-#Filtre, #Recherche
+nav ul 
 {
     list-style-type: none;
     display: flex;
 }
 nav li
 {
-    margin-right: 5px;
+        padding-left: 30px;
 }
-#bloc_header
+nav a
+{
+    font-size: 15px;
+    color: black;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+nav a:hover
+{
+    color: blue;
+    border-bottom: 3px solid blue;
+}
+.Recherche
 {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    border: 1px  #f2f2f2 solid;
+    border-radius: 13px 10px 10px 13px;
+    margin-right: 610px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.res2:nth-child(2)
+{
+    flex: 1;
+}
+.res1
+{
+    text-align: center;
+    border: 7px #f2f2f2 solid;
+    background-color: #f2f2f2;
+    border-radius: 10px 0px 0px 10px;
+}
+.res2
+{
+    text-align: left;
+    border: 7px White solid;
+}
+.res3
+{
+    text-align: center;
+    color: white;
+    border: 7px #0065fc solid;
+    background-color: #0065fc;
+    border-radius: 0px 10px 10px 0px;
+}
+.Filtre
+{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    right: 8px;
+    top: 15px;
+    border: 1px  white solid;
+    margin-right: 350px;
+    margin-left: 0px;
+    font-size: 15px;
+}
+.eco,.fam,.rom,.ani,.fil
+{
+    text-align: center;
+    border: 1px #817f7f solid;
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+}
+.fil
+{
+    text-align: center;
+    border: 1px white solid;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;   
+}
+
+h1
+{
+    font-size: 16px;
+}
+.dp
+{
+    position: relative;
+    top:0px;
+    margin-left: 0px;
+    font-size: 14px;
+}
+.par
+{
+    position: relative;
+    top: 15px;
+    margin-left: 35px;
+    font-size: 13px;
 }
