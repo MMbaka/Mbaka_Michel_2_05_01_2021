@@ -4,26 +4,32 @@ body
 {
     font-family: 'Raleway', sans-serif;
 }
-header
-{
-    flex-direction: column;   
-}
 #bloc_page
 {
     width: 900px;
     margin: auto;
 }
+@media all and (max-width: 1024px)
+{
+    #bloc_page  
+    {
+        width: auto;
+    }
+    .titre_principal
+    {
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+}
 .titre_principal
 {
-    flex-direction: column; 
-    font-weight: normal;
-    margin: 0 0 0 10px;
-    display: inline-block;    
-    vertical-align: top;
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-end;
 }
 .logo
 {
-    display: flex;
     align-items: baseline;
 }
 .logo img
@@ -33,11 +39,7 @@ header
 }
 nav 
 {
-    display: inline-block;    
-    vertical-align: top;
-    position: relative;
-    left: 150px;
-    top: 0px;
+    display: flex; 
 }
 nav ul 
 {
@@ -60,14 +62,54 @@ nav a:hover
     color: blue;
     border-bottom: 3px solid blue;
 }
+@media all and (max-width: 1024px)
+{
+    .logo
+    {
+        display: inline-block;    
+        vertical-align: top;
+        align-items: top;
+    }
+    nav
+    {
+        width: auto;
+        text-align: left;
+    }
+    nav li
+    {
+        padding-left: 30px;
+    }
+    
+    nav a
+    {
+        font-size: 1.1em;
+    }
+    
+    nav a:hover
+    {
+        border-bottom: 0;
+    }
+
+}
+@media all and (max-width: 1024px)
+{
+    
+}
 .Recherche
 {
     display: flex;
     border: 1px  #f2f2f2 solid;
     border-radius: 13px 10px 10px 13px;
     margin-right: 610px;
-    margin-left: 10px;
     font-size: 15px;
+}
+.Filtre
+{
+    display: flex;
+    margin-left: 15px;
+    border: 1px  white solid;
+    margin-right: 350px;
+    font-size: 13px;
 }
 
 .res2:nth-child(2)
@@ -98,13 +140,9 @@ nav a:hover
 {
     display: flex;
     justify-content: space-around;
-    position: relative;
-    right: 8px;
-    top: 15px;
-    border: 1px  white solid;
+    margin-left: 15px;
     margin-right: 350px;
-    margin-left: 0px;
-    font-size: 15px;
+    font-size: 13px;
 }
 .eco,.fam,.rom,.ani,.fil
 {
@@ -128,17 +166,13 @@ h1
 {
     font-size: 16px;
 }
-.dp
+
+h2,p
 {
-    position: relative;
-    top:0px;
-    margin-left: 0px;
-    font-size: 14px;
-}
-.par
-{
-    position: relative;
-    top: 15px;
-    margin-left: 35px;
     font-size: 13px;
+}
+.rf
+{
+    display: flex;
+    flex-direction: column;
 }
