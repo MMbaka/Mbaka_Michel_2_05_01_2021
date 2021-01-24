@@ -340,6 +340,128 @@ width: 240px;
 {
     font-size: 10px;
 }
+/*Paramettre de section 2*/
+.sec2
+{
+    display: flex;
+    flex-direction: column; 
+    width: 915px;
+    height: 350px;
+    margin-left: 170px;
+}
+.b_se1
+{
+    margin-top: 10px;
+}
+.b_ele
+{
+    display: flex;
+    justify-content: space-between;
+    width: 915px;
+    height: 275px;
+}
+/*1er bloc d'element avec 2 sous blocs*/
+.b_el1, .b_el3
+{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 265px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 4px 4px 4px #f2f2f2 ;
+}
+.b_el11,.b_el33
+{
+    width: 197px;
+    height: 230px;
+    border-radius: 15px 15px 0px 0px;
+}
+.b_el11 img,.b_el33 img
+{
+    width: 200px;
+    height: 230px;
+    border-radius:15px 15px 0px 0px ;
+}
+.b_el111,.b_el333
+{
+    width: 197px;
+    height: 30px;
+    border-radius:0px 0px 15px 15px;
+}
+.b_el111 h2,.b_el333 h2,.b_e222 h2,.b_e444 h2,.b_222 h2,.b_444 h2
+{
+    margin-left: 10px;
+}
+/*2e bloc d'element avec 4 sous blocs*/
+
+.b_el2,.b_el4
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    height: 265px;
+    border-radius: 15px 15px 15px 15px;
+}
+.b_e2,.b_e4
+{
+    display: flex;
+    flex-direction: column;
+    width: 198px;
+    height: 147px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 4px 4px 4px #f2f2f2 ;
+}
+.b_e22,.b_e44
+{
+    width: 196px;
+    height: 110px;
+    border-radius: 15px 15px 0px 0px;
+}
+.b_e22 img,.b_e44 img
+{
+    width: 198px;
+    height: 110px;
+    border-radius: 15px 15px 0px 0px;
+}
+.b_e222,.b_e444
+{
+    width: 196px;
+    height: 35px;
+    border-radius: 0px 0px 15px 15px;
+}
+.b_2,.b_4
+{
+    display: flex;
+    flex-direction: column;
+    width: 198px;
+    height: 90px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 4px 4px 4px #f2f2f2 ;
+}
+.b_22,.b_44
+{
+    width: 196px;
+    height: 53px;
+    border-radius: 15px 15px 0px 0px;
+}
+.b_22 img,.b_44 img
+{
+    width: 198px;
+    height: 53px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.b_222,.b_444
+{
+    width: 196px;
+    height: 35px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+
+
+
 
 
 
