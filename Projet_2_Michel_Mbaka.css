@@ -60,7 +60,7 @@ nav a
 nav a:hover
 {
     color: blue;
-    border-bottom: 3px solid blue;
+    border-top: 3px solid blue;
 }
 @media all and (max-width: 1024px)
 {
@@ -103,6 +103,17 @@ nav a:hover
 {
     flex: 1;
 }
+.Recherche a
+{
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+}
+.Recherche a:hover
+{
+    color: black;
+}
+
 .res1
 {
     width: 20px;
@@ -193,6 +204,16 @@ display: flex;
 .ic55
 {
     margin-left: 10px;
+}
+.sec1 a,.sec2 a
+{
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+}
+.sec1 a:hover,.sec2 a:hover
+{
+    color: blue;
 }
 /* paramettre de la sous section "ber"*/
 .ber
@@ -458,6 +479,43 @@ width: 240px;
     height: 35px;
     border-radius: 0px 0px 15px 15px;
 }
+footer
+{
+    display: flex;
+    align-items:center ;
+    width: 980px;
+    height: 150px;
+    background-color: #f2f2f2;
+    margin-left: 133px;
+}
+.bloc_f
+{
+    justify-content:space-between;
+    display: flex;
+    align-items: center;
+    width: 780px;
+    height: 100px;
+    margin-left: 35px;
+}
+.bf_1,.bf_2,.bf_3
+{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    height: 80px;
+}
+.bf_1,.bf_1 a,.bf_2,.bf_2 a,.bf_3,.bf_3 a
+{
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+}
+.bf_1 a:hover,.bf_2 a:hover,.bf_3 a:hover
+{
+    color: blue;
+}
+
+
 
 
 
