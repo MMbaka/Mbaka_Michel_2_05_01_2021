@@ -106,14 +106,13 @@ nav a:hover
 .Recherche a
 {
     font-size: 13px;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 .Recherche a:hover
 {
     color: black;
 }
-
 .res1
 {
     width: 20px;
@@ -140,11 +139,16 @@ nav a:hover
     display: flex;
     justify-content: space-around;
     margin-left: 15px;
-    width: 650px;
+    width: 600px;
     font-size: 14px;
+    border: 1px black solid;
+
 }
 .eco,.fam,.rom,.ani,.fil
 {
+    position: absolute;
+    z-index: 1;
+    display: flex;
     text-align: center;
     border: 1px #817f7f solid;
     padding: 5px;
@@ -155,11 +159,18 @@ nav a:hover
 }
 .fil
 {
-    border: 1px white solid;
+    border: 1px black solid;
     text-align: center;
     background-color: white;
     border-radius: 20px 20px 20px 20px;   
 }
+.fil_1,.fil_2,.fil_3,.fil_4
+{
+    display: flex;
+    flex-wrap: nowrap;
+    border: 1px black solid ;
+}
+
 
 h1
 {
