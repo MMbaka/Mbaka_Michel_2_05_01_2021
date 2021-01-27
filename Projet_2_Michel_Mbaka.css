@@ -138,11 +138,39 @@ nav a:hover
 {
     display: flex;
     justify-content: space-around;
-    margin-left: 15px;
+    margin-left: 100px;
     width: 600px;
+    height: 60px;
     font-size: 14px;
-    border: 1px black solid;
 
+}
+.fil
+{
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    width: 70px;
+}
+.fil_1,.fil_2,.fil_3,.fil_4
+{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 200px;
+
+
+
+}
+
+.ic1,.ic2,.ic3,.ic4
+{
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    width: 35px;
+    height: 35px;
+    background-color: #deebff;
+    border-radius: 35px;
+    justify-content:center;
+    align-items: center;
 }
 .eco,.fam,.rom,.ani,.fil
 {
@@ -151,24 +179,10 @@ nav a:hover
     display: flex;
     text-align: center;
     border: 1px #817f7f solid;
-    padding: 5px;
     background-color: white;
     border-radius: 20px 20px 20px 20px;
-    padding: 10px;
-
-}
-.fil
-{
-    border: 1px black solid;
-    text-align: center;
-    background-color: white;
-    border-radius: 20px 20px 20px 20px;   
-}
-.fil_1,.fil_2,.fil_3,.fil_4
-{
-    display: flex;
-    flex-wrap: nowrap;
-    border: 1px black solid ;
+    padding: 9px;
+    padding-left: 40px;
 }
 
 
@@ -185,16 +199,6 @@ h2,p
 {
     display: flex;
     flex-direction: column;
-}
-.ic1,.ic2,.ic3,.ic4
-{
-    display: flex;
-    width: 35px;
-    height: 35px;
-    background-color: #deebff;
-    border-radius: 35px;
-    justify-content:center;
-    align-items: center;
 }
 .ic5
 {
@@ -215,6 +219,10 @@ display: flex;
 .ic55
 {
     margin-left: 10px;
+}
+.sec1
+{
+    display: flex;
 }
 .sec1 a,.sec2 a
 {
