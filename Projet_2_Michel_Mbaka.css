@@ -31,16 +31,19 @@ header
     min-width: 280px;
     flex-wrap: wrap;
 }
+
 .logo 
 {
     width: 120px;
     height: 70px;
     flex-grow: 1;
+
 }
 .logo img
 {
     width: 120px;
     height: 70px;
+
 }
 nav, .header_inscrire
 {
@@ -50,9 +53,6 @@ nav
 {
     display: flex;
     width: 300px;
-    height: 70px;
-
-    outline: 2px red solid;
     justify-content: space-around;
 }
 .titre_principal a
