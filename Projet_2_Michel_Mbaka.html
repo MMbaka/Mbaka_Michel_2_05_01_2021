@@ -11,18 +11,20 @@
     </head>
 
 <body>
-    <div id="bloc_page"> 
         <header>
                 <div class="titre_principal">
                     <div class="logo">
                         <img src="Projet_2_Reservia/images/logo/Reservia@3x.png" alt="Logo de Reservia@3x" />
                     </div>
                     <nav>
-                        <div class="header_nav_list"><a href="#"><strong>Hébergement</strong></a></div>
-                        <div class="header_nav_list"><a href="#"><strong>Activités</strong></a></div>
+                        <div class="header_nav_list mobile mobile1" ><a href="#hbg"><strong>Hébergement</strong></a></div>
+                        <div class="header_nav_list mobile mobile2"><a href="#ate"><strong>Activités</strong></a></div>
                     </nav>
                     <div class="header_inscrire"><a href="#"><strong>S'inscrire</strong></a></div>
                 </div>
+        </header>
+    <div class="bloc_section"> 
+        <section class="sec_p">
                 <div class="par">
                     <h1><strong>Trouvez votre hébergement pour des vacances de rêve</strong></h1>
                     <h2>En plein centre ville ou en pleine nature</h2> 
@@ -44,19 +46,19 @@
                         <div class="fi2">
                             <div class="f1">
                                 <div class="f1_i"><i class="fas fa-money-bill-wave" style="color:blue; font-size:15px"></i></div>
-                                <div class="f1_ii"><strong>Economique</strong></div>
+                                <div class="f1_ii"><a href="#" title="Voir côte Economique"><strong>Economique</strong></a></div>
                             </div>
                             <div class="f2">
                                 <div class="f2_i"><i class="fas fa-child" style="color:blue; font-size:15px"></i></div>
-                                <div class="f2_ii"><strong>Familial</strong></div>
+                                <div class="f2_ii"><a href="#" title="Voir côte Familial"><strong>Familial</strong></a></div>
                             </div>
                             <div class="f3">
                                 <div class="f3_i"><i class="fas fa-heart"  style="color:blue; font-size:15px"></i></div>
-                                <div class="f3_ii"><strong>Romantique</strong></div>
+                                <div class="f3_ii"><a href="#" title="Voir côte Romantique"><strong>Romantique</strong></a></div>
                             </div>
                             <div class="f4">
                                 <div class="f4_i"><i class="fas fa-dog" style="color:blue; font-size:15px"></i></div>
-                                <div class="f4_ii"><strong>Animaux autorisés</strong></div>
+                                <div class="f4_ii"><a href="#" title="Voir côte Animalier"><strong>Animaux autorisés</strong></a></div>
                             </div>
                         </div>
                     </div>
@@ -65,9 +67,9 @@
                         <div class="ic55">plus de 500 logements sont disponibles dans cette ville</div>   
                     </div>
                 </div>
-        </header><br/>
+        </section><br/>
         <section class="sec1">
-            <div class="ber">
+            <div id="hbg" class="ber">
                 <div class="be1">
                     <strong>Heberegement à Marseille</strong>
                 </div><br/>
@@ -234,7 +236,7 @@
             </div> 
         </section><br/>
         <section class="sec2">
-            <div class="b_se1">
+            <div id="ate" class="b_se1">
                 <strong>Activites à Marseille</strong>
             </div><br/>
             <div class="b_ele">
@@ -304,25 +306,26 @@
                 </div>
             </div>
         </section><br/>
+    </div>
+    <div class="bloc_footer">
         <footer>
             <div class="bf_1">
                 <strong>A propos</strong><br/>
                 <a href="#"title="Cliqluez ici pour les détailles de fonctinnement">Fonctonnement du site</a>
                 <a href="#"title="Voir les conditions générales">Condition generale de vente</a>
-                <a href="#"title="A propos de données et ">Données et confidentialité</a>
+                <a href="#"title="A propos de données et confidentialité">Données et confidentialité</a>
             </div>
             <div class="bf_2">
                 <strong>Nos hébergements</strong><br/>
-                <a href="#">Charte qualité</a>
-                <a href="#">Soumettre votre hôtel</a>
+                <a href="#" title="Voir la charte qualité">Charte qualité</a>
+                <a href="#" title="Proposez votre Hôtel">Soumettre votre hôtel</a>
             </div>
             <div class="bf_3">
                 <strong>Assistance</strong><br/>
-                <a href="#">Centre d'aide</a>
-                <a href="#">Nous contacter</a>
+                <a href="#" title="Consultez notre centre d'aide">Centre d'aide</a>
+                <a href="#" title="Nos moyens de contact">Nous contacter</a>
             </div>
         </footer>
-    </div>    
-    
+    </div>
 </body>
 </html>
