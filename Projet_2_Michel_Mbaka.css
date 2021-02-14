@@ -9,7 +9,6 @@ header
     height: 80px;
     margin: auto;
     padding: 0 20px;
-    outline: 2px red solid;
 }
 .bloc_section
 {
@@ -63,7 +62,7 @@ nav
 {
     color: blue; 
 }
-@media only screen and (max-width: 700px)
+@media only screen and (max-width: 424px)
 {
     nav
     {
@@ -177,7 +176,7 @@ nav
     {
         display: flex;
         border: 1px  #f2f2f2 solid;
-        width:250px;
+        width:300px;
         border-radius: 16px 15px 15px 16px;
     }
     .res1
@@ -438,8 +437,6 @@ display: flex;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 99%;
-    height: 99%x;
     background-color: #f2f2f2;
     padding-bottom: 10px;
 }
@@ -453,7 +450,7 @@ margin-top: 15px;
 {
     display: flex;
     flex-direction: column;
-    width: 29%;
+    width: 28%;
     height: auto;
     border-radius: 15px 15px 15px 15px;
     background-color:white;
@@ -462,18 +459,19 @@ margin-top: 15px;
 .b2,.b3,.b4,.b5,.b6,.b7
 {
     display: flex;
-    border: 3px white solid;
+    border: 4px white solid;
     align-items: center;
     justify-content:center;
-    width: 97%;
+    width: 170px;
     height:110px;
     border-radius: 15px 15px 0px 0px;
     background-color:white;
 
+
 }
 .b2 img,.b3 img,.b4 img,.b5 img,.b6 img,.b7 img
 {
-    width: 170px;
+    width: 168px;
     height: 105px;
     border-radius: 15px 15px 0px 0px;
 }
@@ -481,11 +479,13 @@ margin-top: 15px;
 .b22,.b33,.b44,.b55,.b66,.b77
 {
     margin-top: 0px;
-    width: 90%;
-    height: auto;
+    width: 160px;
+    height: 70px;
     margin-left: 10px;
     border-radius: 0px 0px 15px 15px;
     background-color:white;
+    padding-bottom: 10px;
+    line-height: 60%;
 
 }
 .b22 h1, .b33 h1,.b44 h1,.b55 h1,.b66 h1,.b77 h1
@@ -508,30 +508,30 @@ margin-bottom: 0px;
         width: 100%;
         right: auto;
         margin-top: 15px;
-  
+        background-color: white;
     }
     .bloc_img
     {
-        width: 99%;
+        width: 100%;
         right: 100%;
+        background-color: white;
     }
     .be2,.be3,.be4,.be5,.be6,.be7
     {
-        width: 95%;
-        right: 95%;
-
-
+        width: 100%;
+        right: 100%;
+        box-shadow: 5px 5px 5px  #f2f2f2 ;
     }
     .b2,.b3,.b4,.b5,.b6,.b7
     {
-        width: 98%;
-        right: 93%;
+        width: 96%;
+        right: 100%;
 
     }
     .b2 img,.b3 img,.b4 img,.b5 img,.b6 img,.b7 img
     {
-        width: 350px;
-        right: 95%;
+        width: 375px;
+        right: 100px;
 
     }
 
@@ -601,9 +601,10 @@ width: 240px;
 {
     border: 2px white solid;
     width: 130px;
-    height: 96px;
+    height: 85px;
     border-radius: 0px 15px 15px 0px;
     background-color:white;
+    padding-bottom: 10px;
     line-height: 80%;
 }
 .p22 h1,.p33 h1,.p44 h1
@@ -625,7 +626,7 @@ width: 240px;
     .po1,.po2,.po3,.po4 
     {
         width: 90%;
-        right: 90%;
+        right: 100%;
         margin-top: 15px;
     }
     .p2,.p22,.p3,.p33,.p4,.p44 
@@ -634,7 +635,9 @@ width: 240px;
     }
     .po2 img,.po3 img,.po4 img 
     {
-        width: 90%;
+        width: 100%;
+        right: 100%;
+
     }
     .p2 a,.p3 a,.p4 a 
     {
