@@ -3,71 +3,70 @@ body
 {
     font-family: 'Raleway', sans-serif;
 }
-header
+header 
 {
-    width: 950px;
-    height: 80px;
+    width: 76%;
+    height: auto;
     margin: auto;
-    padding: 0 20px;
 }
-.bloc_section
-{
-    width: 950px;
-    margin: auto;
-    padding: 0 20px;
-}
-@media all and (max-width: 1024px)
-{
-    .bloc_section
-    {
-        width: auto;
-    }
-}
+
 .titre_principal 
 {
     display: flex;
     align-items: center;
+    width: 100%;
+    height: auto;
     min-width: 280px;
     flex-wrap: wrap;
 }
-
 .logo 
 {
-    width: 120px;
-    height: 70px;
+    width: 140px;
     flex-grow: 1;
-
 }
 .logo img
 {
-    width: 120px;
-    height: 70px;
-
+    width: 140px;
 }
-nav, .header_inscrire
+
+@media only screen and (max-width: 1000px)
+{
+    header 
+    {
+        width: 100%;
+        height: 100px;
+        margin-bottom: 30px;
+
+    }
+
+    .titre_principal 
+    {
+        width: 100%;
+        height: 100px;
+    }
+    .logo img
 {
     padding: 0 15px;
+}
 }
 nav
 {
     display: flex;
     width: 300px;
+    height: 70px;
     justify-content: space-around;
 }
 .titre_principal a
 {
     text-decoration: none;
 }
-.mobile1 a:visited,.header_inscrire a:visited 
-{
-    color: blue; 
-}
-@media only screen and (max-width: 424px)
+@media only screen and (max-width: 500px)
 {
     nav
     {
         flex-grow: 1;
         order: 3;
+        height: 50px;
     }
     .header_inscrire 
     {
@@ -94,8 +93,16 @@ nav
 }
 .mobile2
 {
+    border-top: 3px white solid;
     color: #9f9f9f;
-    padding-top: 10px;
+}
+.mobile1 a:visited,.header_inscrire a:visited 
+{
+    color: blue; 
+}
+.mobile2 a:visited 
+{
+    color: #101010; 
 }
 @media all and (max-width:  500px)
 {  
@@ -112,7 +119,6 @@ nav
         border-top: none;
         border-bottom: 3px blue solid;
         color: blue; 
-        padding-bottom: 10px;
 
     }
     .mobile2
@@ -381,6 +387,20 @@ display: flex;
         margin-left: 10px;
     }
 }
+.bloc_section
+{
+    width: 950px;
+    margin: auto;
+    padding: 0 15px;
+}
+@media all and (max-width: 1024px)
+{
+    .bloc_section
+    {
+        width: auto;
+    }
+}
+
 /*Paramettre de la section une*/
 .sec1
 {
@@ -462,7 +482,7 @@ margin-top: 15px;
     border: 4px white solid;
     align-items: center;
     justify-content:center;
-    width: 170px;
+    width: 164px;
     height:110px;
     border-radius: 15px 15px 0px 0px;
     background-color:white;
@@ -471,7 +491,7 @@ margin-top: 15px;
 }
 .b2 img,.b3 img,.b4 img,.b5 img,.b6 img,.b7 img
 {
-    width: 168px;
+    width: 164px;
     height: 105px;
     border-radius: 15px 15px 0px 0px;
 }
@@ -524,17 +544,24 @@ margin-bottom: 0px;
     }
     .b2,.b3,.b4,.b5,.b6,.b7
     {
-        width: 96%;
+        width: 97.5%;
         right: 100%;
 
     }
     .b2 img,.b3 img,.b4 img,.b5 img,.b6 img,.b7 img
     {
-        width: 375px;
+        width: 100%;
         right: 100px;
-
     }
-
+    .b2 a,.b3 a,.b4 a,.b5 a,.b6 a,.b7 a 
+    {
+        width: 100%;
+    }
+    a img
+    {
+        width: 90%;
+        object-fit: cover;
+    }
     .b22,.b33,.b44,.b55,.b66,.b77
     {
         width: 97%;
@@ -729,6 +756,7 @@ width: 240px;
     height: 110px;
     border-radius: 15px 15px 0px 0px;
 }
+
 .b_e222,.b_e444
 {
     width: 196px;
@@ -762,7 +790,7 @@ width: 240px;
     height: 35px;
     border-radius: 0px 0px 15px 15px;
 }
-@media all and (max-width: 600px)
+@media all and (max-width: 900px)
 {
     .b_ele
     {
@@ -774,21 +802,29 @@ width: 240px;
     .b_el1, .b_el3
     {
         width: 100%;
-        margin: auto;
+        height: 170px;
         margin-top: 15px;
-    
     }
     .b_el11,.b_el33
     {
         width: 99.8%;
-        height: 140px;
+        height: 78%;
     }
     .b_el11 img,.b_el33 img
     {
         width: 99.8%;
         height: 100%;
     }
-    .b_el111,.b_el333
+    .b_el11 a,.b_el33 a, 
+    {
+        width: 100%;
+    }
+    a img
+    {
+        width: 100%;
+        object-fit: cover;
+    }
+        .b_el111,.b_el333
     {
         width: 99.8%;
         height: auto;
@@ -802,25 +838,30 @@ width: 240px;
     .b_el2,.b_el4
     {
         width: 99.8%;
-        height: auto;
+        height: 355px;
         margin-top: 15px;
     }
     .b_e2,.b_e4
     {
-        width: 99%;
-        height: auto;
+        width: 100%;
+        height: 170px;
         margin-bottom: 15px;
     }
     .b_e22,.b_e44
     {
         width: 99.8%;
-        height: auto;
+        height: 78%;
     }
     .b_e22 img,.b_e44 img
     {
         width: 99.8%;
-        height: 140px;
+        height: 100%;
     }
+    .b_e22 a,.b_e44 a, 
+    {
+        width: 100%;
+    }
+
     .b_e222,.b_e444
     {
         width: 99.8%;
@@ -829,40 +870,33 @@ width: 240px;
     .b_2,.b_4
     {
         width: 99.8%;
-        height: auto;
-
+        height: 170px;
     }
     .b_22,.b_44
     {
         width: 99.8%;
-        height: 140px;
+        height: 80%;
     }
     .b_22 img,.b_44 img
     {
         width: 99.8%;
-        height: 140px;
+        height: 100%;
+    }
+    .b_22 a,.b_44 a, 
+    {
+        width: 100%;
     }
     .b_222,.b_444
     {
         width: 99.8%;
         height: 35px;
-
     }
 }
 .bloc_footer
 {
-    width: 1000px;
+    width: 80%;
     height: auto;
     margin-left: 10%;
-}
-@media all and (max-width: 600px)
-{
-    .bloc_footer
-    {
-        width: 430px;
-        height: auto;
-        margin-left: 0%;
-    }
 }
 footer
 {
@@ -893,8 +927,14 @@ footer
 {
     color: blue;
 }
-@media all and (max-width: 600px)
+@media all and (max-width: 900px)
 {
+    .bloc_footer
+    {
+        width: 100%;
+        height: auto;
+        margin-left: 0%;
+    }
     footer
     {
         display: flex;
