@@ -28,7 +28,6 @@ header
 {
     width: 140px;
 }
-
 @media only screen and (max-width: 1000px)
 {
     header 
@@ -276,8 +275,6 @@ nav
     text-decoration: none;
     color: blue;
 }
-
-
 @media all and (max-width: 700px)
 {
     .fil
@@ -294,7 +291,6 @@ nav
         height:auto;
         padding-top: 10px;
     }
-
     .fi2
     {
         display: flex;
@@ -333,7 +329,6 @@ h1
 {
     font-size: 16px;
 }
-
 h2,p
 {
     font-size: 13px;
@@ -398,7 +393,6 @@ display: flex;
         width: auto;
     }
 }
-
 /*Paramettre de la section une*/
 .sec1
 {
@@ -460,9 +454,9 @@ display: flex;
 }
 .be1
 {
-display: flex;
-margin-left: 15px;
-margin-top: 15px;
+    display: flex;
+    margin-left: 15px;
+    margin-top: 15px;
 }
 .be2,.be3,.be4,.be5,.be6,.be7
 {
@@ -484,8 +478,6 @@ margin-top: 15px;
     height:110px;
     border-radius: 15px 15px 0px 0px;
     background-color:white;
-
-
 }
 .b2 img,.b3 img,.b4 img,.b5 img,.b6 img,.b7 img
 {
@@ -493,7 +485,6 @@ margin-top: 15px;
     height: 105px;
     border-radius: 15px 15px 0px 0px;
 }
-
 .b22,.b33,.b44,.b55,.b66,.b77
 {
     margin-top: 0px;
@@ -504,7 +495,6 @@ margin-top: 15px;
     background-color:white;
     padding-bottom: 10px;
     line-height: 60%;
-
 }
 .b22 h1, .b33 h1,.b44 h1,.b55 h1,.b66 h1,.b77 h1
 {
@@ -613,7 +603,6 @@ width: 240px;
     height:96px;
     border-radius: 15px 0px 0px 15px;
     background-color:white;
-
 }
 .p2 img,.p3 img,.p4 img
 {
@@ -621,7 +610,6 @@ width: 240px;
     height: 90px;
     border-radius: 15px 0px 0px 15px;
 }
-
 .p22,.p33,.p44
 {
     border: 2px white solid;
@@ -700,15 +688,12 @@ width: 240px;
     flex-direction: column;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 4px 4px 4px #f2f2f2 ;
-
 }
 .b_el11,.b_el33
 {
     width: 197px;
     height: 230px;
     border-radius: 15px 15px 0px 0px;
-    
-
 }
 .b_el11 img,.b_el33 img
 {
@@ -767,7 +752,6 @@ width: 240px;
     flex-direction: column;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 4px 4px 4px #f2f2f2 ;
-    
 }
 .b_22,.b_44
 {
