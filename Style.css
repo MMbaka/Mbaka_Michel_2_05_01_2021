@@ -9,7 +9,6 @@ header
     height: auto;
     margin: auto;
 }
-
 .titre_principal 
 {
     display: flex;
@@ -277,7 +276,7 @@ nav
 }
 @media all and (max-width: 700px)
 {
-    .fil
+    .fil,.fi2
     {
         display: flex;
         flex-wrap: wrap;
@@ -290,14 +289,6 @@ nav
         width: auto;
         height:auto;
         padding-top: 10px;
-    }
-    .fi2
-    {
-        display: flex;
-        flex-wrap: wrap;
-        width: auto;
-        height:auto;
-
     }
     .f1,.f2,.f3,.f4
     {
@@ -673,6 +664,7 @@ width: 240px;
 .b_se1
 {
     margin-top: 10px;
+    padding-bottom:  10px;
 }
 .b_ele
 {
@@ -774,6 +766,11 @@ width: 240px;
 }
 @media all and (max-width: 900px)
 {
+    .b_se1
+    {
+        padding-bottom:0px;
+    }
+
     .b_ele
     {
         display: flex;
