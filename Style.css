@@ -9,7 +9,7 @@ header
     height: auto;
     margin: auto;
 }
-.titre_principal 
+.hdr_tit_pri_14 
 {
     display: flex;
     align-items: center;
@@ -18,14 +18,50 @@ header
     min-width: 280px;
     flex-wrap: wrap;
 }
-.logo 
+.hdr_tit_pri_logo_15
 {
     width: 140px;
     flex-grow: 1;
 }
-.logo img
+.hdr_tit_pri_logo_15 img
 {
     width: 140px;
+}
+nav
+{
+    display: flex;
+    width: 300px;
+    height: 70px;
+    justify-content: space-around;
+}
+.hdr_tit_pri_14 a
+{
+    text-decoration: none;
+}
+.mob 
+{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mob1 
+{
+    border-top: 3px blue solid;
+    color: blue; 
+}
+.mob2
+{
+    border-top: 3px white solid;
+    color: #9f9f9f;
+}
+.mob1 a:visited,.hdr_tit_pri_14 a:visited 
+{
+    color: blue; 
+}
+.mob2 a:visited 
+{
+    color: #101010; 
 }
 @media only screen and (max-width: 1000px)
 {
@@ -35,58 +71,22 @@ header
         height: 100px;
         margin-bottom: 30px;
     }
-    .titre_principal 
+    .hdr_tit_pri_14 
     {
         width: 100%;
         height: 100px;
     }
-    .logo img
+    .hdr_tit_pri_logo_15 img
     {
         padding: 0 15px;
     }
 }
-nav
-{
-    display: flex;
-    width: 300px;
-    height: 70px;
-    justify-content: space-around;
-}
-.titre_principal a
-{
-    text-decoration: none;
-}
-.mobile 
-{
-    flex-grow: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.mobile1 
-{
-    border-top: 3px blue solid;
-    color: blue; 
-}
-.mobile2
-{
-    border-top: 3px white solid;
-    color: #9f9f9f;
-}
-.mobile1 a:visited,.header_inscrire a:visited 
-{
-    color: blue; 
-}
-.mobile2 a:visited 
-{
-    color: #101010; 
-}
-.par
+.sec_27_P
 {
     display: flex;
     flex-direction: column;
 }
-.Recherche
+.sec_32_P_Rec
 {
     display: flex;
     border: 1px  #f2f2f2 solid;
@@ -94,23 +94,23 @@ nav
     width:300px;
     font-size: 15px;
 }
-.res2:nth-child(2)
+.sec_34_P_Rec:nth-child(2)
 {
     text-align: left;
     border: 7px White solid;
     flex: 1;
 }
-.Recherche a
+.sec_32_P_Rec a
 {
     font-size: 13px;
     color: white;
     text-decoration: none;
 }
-.Recherche a:hover
+.sec_32_P_Rec a:hover
 {
     color: black;
 }
-.res1
+.sec_33_P_Rec
 {
     width: 20px;
     text-align: center;
@@ -118,7 +118,7 @@ nav
     background-color: #f2f2f2;
     border-radius: 10px 0px 0px 10px;
 }
-.b_r3r4
+.sec_35_P_Rec
 {
     text-align: center;
     color: white;
@@ -126,7 +126,7 @@ nav
     background-color: #0065fc;
     border-radius: 0px 10px 10px 0px;
 }
-.res4
+.sec_37_P_Rec
 {
     display:none;
 }
@@ -138,74 +138,71 @@ nav
         order: 3;
         height: 50px;
     }
-    .header_inscrire 
+    .hdr_tit_pri_14
     {
         order: 2;
     }
-    .titre_principal a:hover
+    .hdr_tit_pri_14 a:hover
     {
         border-top:none;
     }
-    .mobile 
+    .mob 
     {
-        flex-grow: 1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         padding-bottom: 10px;
     }
-   .mobile1 
+   .mob1 
     {
         border-top: none;
         border-bottom: 3px blue solid;
         color: blue; 
     }
-    .mobile2
+    .mob2
     {
         border-bottom: 3px #f2f2f2 solid;
         color: #9f9f9f;
     }
-    .Recherche
+    .sec_32_P_Rec
     {
         display: flex;
         border: 1px  #f2f2f2 solid;
         width:300px;
         border-radius: 16px 15px 15px 16px;
     }
-    .res1
+    .sec_33_P_Rec
     {
         width: 20px;
         border: 15px #f2f2f2 solid;
         border-radius: 15px 0px 0px 15px;
     }
-    .res2:nth-child(2)
+    .sec_34_P_Rec:nth-child(2)
     {
         flex: 1;
         padding-top: 8px;
         font-size: 17px;
     }
-    .Recherche a
+    .sec_32_P_Rec a
     {
         font-size: 13px;
         color: white;
         text-decoration: none;
     }
-    .Recherche a:hover
+    .sec_32_P_Rec a:hover
     {
         color: black;
     } 
-    .res4,.b_r3r4
+    .sec_37_P_Rec,.sec_35_P_Rec
     {
         display: block;
         border: 7px #0065fc solid;
         border-radius: 15px 15px 15px 15px;
     }
-    .res3
+    .sec_36_P_Rec
     {
         display: none;
     }
 }
-.fil
+/*Paramettrage du bloc filtre*/
+.sec_40_P_fil
 {
     display: flex;
     width: 700px;
@@ -213,7 +210,7 @@ nav
     border: 1px white solid;
     align-items: center;
 }
-.fi1
+.sec_41_P_fil
 {
     display: flex;
     width: 60px;
@@ -221,7 +218,7 @@ nav
     border: 1px white solid;
     align-items: center;
 }
-.fi2
+.sec_44_P_fil
 {
     display: flex;
     justify-content: space-between;
@@ -231,7 +228,7 @@ nav
     height: 40px;
     border: 1px white solid;
 }
-.f1,.f2,.f3,.f4
+.sec_45_P_fil,.sec_49_P_fil,.sec_53_P_fil,.sec_57_P_fil
 {
     display: flex;
     border: 1px #817f7f solid;
@@ -239,7 +236,7 @@ nav
     align-items: center;
     
 }
-.f1_i,.f2_i,.f3_i,.f4_i
+.sec_46_P_fil,.sec_50_P_fil,.sec_54_P_fil,.sec_58_P_fil
 {
     display: flex;
     width: 35px;
@@ -249,18 +246,18 @@ nav
     justify-content:center;
     align-items: center;
 }
-.f1_ii,.f2_ii,.f3_ii,.f4_ii
+.sec_47_P_fil,.sec_51_P_fil,.sec_55_P_fil,.sec_59_P_fil
 {
     display: flex;
     padding-left: 10px;
     padding-right: 10px;
 }
-.f1_ii a,.f2_ii a,.f3_ii a,.f4_ii a
+.sec_47_P_fil a,.sec_51_P_fil a,.sec_55_P_fil a,.sec_59_P_fil a
 {
     text-decoration: none;
     color: black;
 }
-.f1_ii a:hover,.f2_ii a:hover,.f3_ii a:hover,.f4_ii a:hover
+.sec_47_P_fil a:hover,.sec_51_P_fil a:hover,.sec_55_P_fil a:hover,.sec_59_P_fil a:hover
 {
     text-decoration: none;
     color: blue;
@@ -273,16 +270,16 @@ h2,p
 {
     font-size: 13px;
 }
-.rf
+.sec_31_P
 {
     display: flex;
     flex-direction: column;
 }
-.ip
+.sec_63_P_I_P
 {
 display: flex;
 }
-.ic5
+.sec_64_P_I_P
 {
     display: flex;
     width: 15px;
@@ -293,33 +290,40 @@ display: flex;
     align-items: center;
     border: 1px #817f7f solid;
 }
-.ic55
+.sec_65_P_I_P
 {
     margin-left: 10px;
 }
-.bloc_section
+.bloc_sec_25
 {
     width: 950px;
     margin: auto;
     padding: 0 15px;
 }
+@media all and (max-width: 1024px)
+{
+    .bloc_sec_25
+    {
+        width: auto;
+    }
+}
 @media all and (max-width: 700px)
 {
-    .fil,.fi2
+    .sec_40_P_fil,.sec_44_P_fil
     {
         display: flex;
         flex-wrap: wrap;
         width: auto;
         height:auto;
     }
-    .fi1
+    .sec_41_P_fil
     {
         display: flex;
         width: auto;
         height:auto;
         padding-top: 10px;
     }
-    .f1,.f2,.f3,.f4
+    .sec_45_P_fil,.sec_49_P_fil,.sec_53_P_fil,.sec_57_P_fil
     {
         display: flex;
         border: 1px #817f7f solid;
@@ -327,7 +331,7 @@ display: flex;
         align-items: center;
         margin-top:10px ;
     }
-    .f1_i,.f2_i,.f3_i,.f4_i
+    .sec_46_P_fil,.sec_50_P_fil,.sec_54_P_fil,.sec_58_P_fil
     {
         display: flex;
         width: 40px;
@@ -337,59 +341,52 @@ display: flex;
         justify-content:center;
         align-items: center;
     }
-    .f1_ii,.f2_ii,.f3_ii,.f4_ii
+    .sec_47_P_fil,.sec_51_P_fil,.sec_55_P_fil,.sec_59_P_fil
     {
         display: flex;
         padding-left: 15px;
         padding-right: 15px;
         font-size: 18px;
     }
-    .ip
+    .sec_63_P_I_P
     {
     display: flex;
     padding-top: 15px;
     }
-    .ic5
+    .sec_64_P_I_P
     {
         display: flex;
         width: 15px;
-        height: 15px;
+        height: 15px;bloc_sec_58_P_fil
         background-color: white;
         border-radius: 15px;
         justify-content:center;
         align-items: center;
         border: 1px #817f7f solid;
     }
-    .ic55
+    .sec_65_P_I_P
     {
         margin-left: 10px;
     }
 }
-@media all and (max-width: 1024px)
-{
-    .bloc_section
-    {
-        width: auto;
-    }
-}
-/*Paramettre de la section une*/
-.sec1
+/*Paramettre de la Deuxième section à partir de la ligne 69*/
+.sec_69_D
 {
     display: flex;
     justify-content: space-between;
 }
-.sec1 a,.sec2 a
+.sec_69_D a,.sec_235_T a
 {
     font-size: 13px;
     color: black;
     text-decoration: none;
 }
-.sec1 a:hover,.sec2 a:hover
+.sec_69_D a:hover,.sec_235_T a:hover
 {
     color: blue;
 }
-/* paramettre de la sous section "ber"*/
-.ber
+/*Paramettre du bloc Hébergement de la Deuxième section à partir de la ligne 70*/
+.sec_heb_70_D
 {
     display: flex;
     flex-direction: column; 
@@ -399,7 +396,13 @@ display: flex;
     background-color: #f2f2f2;
     border-radius: 15px 15px 15px 15px;
 }
-.bloc_img
+.sec_heb_71_D
+{
+    display: flex;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.sec_heb_74_D_b_img
 {
     display: flex;
     flex-wrap: wrap;
@@ -407,13 +410,7 @@ display: flex;
     background-color: #f2f2f2;
     padding-bottom: 10px;
 }
-.be1
-{
-    display: flex;
-    margin-left: 15px;
-    margin-top: 15px;
-}
-.be2,.be3,.be4,.be5,.be6,.be7
+.sec_heb_75,.sec_heb_91,.sec_heb_107,.sec_heb_123,.sec_heb_139,.sec_heb_155
 {
     display: flex;
     flex-direction: column;
@@ -423,7 +420,7 @@ display: flex;
     background-color:white;
     margin-top:15px ;
 }
-.b2,.b3,.b4,.b5,.b6,.b7
+.sec_heb_76,.sec_heb_92,.sec_heb_108,.sec_heb_124,.sec_heb_140,.sec_heb_156
 {
     display: flex;
     border: 4px white solid;
@@ -434,13 +431,13 @@ display: flex;
     border-radius: 15px 15px 0px 0px;
     background-color:white;
 }
-.b2 img,.b3 img,.b4 img,.b5 img,.b6 img,.b7 img
+.sec_heb_76 img,.sec_heb_92 img,.sec_heb_108 img,.sec_heb_124 img,.sec_heb_140 img,.sec_heb_156 img
 {
     width: 164px;
     height: 105px;
     border-radius: 15px 15px 0px 0px;
 }
-.b22,.b33,.b44,.b55,.b66,.b77
+.sec_heb_81,.sec_heb_97,.sec_heb_113,.sec_heb_129,.sec_heb_145,.sec_heb_161
 {
     margin-top: 0px;
     width: 160px;
@@ -451,21 +448,21 @@ display: flex;
     padding-bottom: 10px;
     line-height: 60%;
 }
-.b22 h1, .b33 h1,.b44 h1,.b55 h1,.b66 h1,.b77 h1
+.sec_heb_81 h1,.sec_heb_97 h1,.sec_heb_113 h1,.sec_heb_129 h1,.sec_heb_145 h1,.sec_heb_161 h1
 {
     font-size: 12px;
 }
-.b22 h2,.b33 h2,.b44 h2,.b55 h2,.b66 h2,.b77 h2
+.sec_heb_81 h2,.sec_heb_97 h2,.sec_heb_113 h2,.sec_heb_129 h2,.sec_heb_145 h2,.sec_heb_161 h2
 {
     font-size: 10px;
 }
-.be8
+.sec_heb_172
 {
 margin-left: 10px;
 margin-bottom: 0px;
 }
 /*Paramettre de sous section pop*/
-.pop
+.sec_heb_74_D_b_p
 {
     display: flex;
     flex-direction: column;
@@ -671,43 +668,44 @@ footer
 }
 @media all and (max-width: 900px)
 {
-    .sec1
+    .sec_69_D
     {
         display: flex;
         flex-direction: column-reverse;
         width: auto;
         height:auto;
     }
-    .ber
+    .sec_heb_70_D
     {
         width: 100%;
         right: auto;
         margin-top: 15px;
         background-color: white;
+
     }
-    .bloc_img
+    .sec_heb_74_D_b_img
     {
         width: 100%;
         right: 100%;
         background-color: white;
     }
-    .be2,.be3,.be4,.be5,.be6,.be7
+    .sec_heb_75,.sec_heb_91,.sec_heb_107,.sec_heb_123,.sec_heb_139,.sec_heb_155
     {
         width: 100%;
         right: 100%;
         box-shadow: 5px 5px 5px  #f2f2f2 ;
     }
-    .b2,.b3,.b4,.b5,.b6,.b7
+    .sec_heb_76,.sec_heb_92,.sec_heb_108,.sec_heb_124,.sec_heb_140,.sec_heb_156
     {
         width: 97.5%;
         right: 100%;
     }
-    .b2 img,.b3 img,.b4 img,.b5 img,.b6 img,.b7 img
+    .sec_heb_76 img,.sec_heb_92 img,.sec_heb_108 img,.sec_heb_124 img,.sec_heb_140 img,.sec_heb_156 img
     {
         width: 100%;
         right: 100px;
     }
-    .b2 a,.b3 a,.b4 a,.b5 a,.b6 a,.b7 a 
+    .sec_heb_76 a,.sec_heb_92 a,.sec_heb_108 a,.sec_heb_124 a,.sec_heb_140 a,.sec_heb_156 a 
     {
         width: 100%;
     }
@@ -716,20 +714,20 @@ footer
         width: 100%;
         object-fit: cover;
     }
-    .b22,.b33,.b44,.b55,.b66,.b77
+    .sec_heb_81,.sec_heb_97,.sec_heb_113,.sec_heb_129,.sec_heb_145,.sec_heb_161
     {
         width: 97%;
         right: 90%;
     }
-    .b22 h1, .b33 h1,.b44 h1,.b55 h1,.b66 h1,.b77 h1
+    .sec_heb_81 h1, .sec_heb_97 h1,.sec_heb_113 h1,.sec_heb_129 h1,.sec_heb_145 h1,.sec_heb_161 h1
     {
         font-size: 14px;
     }
-    .b22 h2,.b33 h2,.b44 h2,.b55 h2,.b66 h2,.b77 h2
+    .sec_heb_81 h2,.sec_heb_97 h2,.sec_heb_113 h2,.sec_heb_129 h2,.sec_heb_145 h2,.sec_heb_161 h2
     {
         font-size: 12px;
     }
-    .pop
+    .sec_heb_74_D_b_p
     {
         width: 100%;
         margin: auto;
